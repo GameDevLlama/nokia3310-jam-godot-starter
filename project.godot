@@ -1,0 +1,43 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
+
+[application]
+
+config/name="Nokia 3310 Jam"
+run/main_scene="res://data/scenes/Main.tscn"
+boot_splash/image="res://data/sprites/splash.png"
+boot_splash/use_filter=false
+config/icon="res://icon.png"
+
+[debug]
+
+settings/fps/force_fps=15
+
+[display]
+
+window/size/width=840
+window/size/height=480
+window/size/resizable=false
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
+quality/filters/use_nearest_mipmap_filter=true
+environment/default_clear_color=Color( 0, 0, 0, 1 )
+environment/default_environment="res://default_env.tres"
