@@ -21,6 +21,10 @@ boot_splash/image="res://data/sprites/splash.png"
 boot_splash/use_filter=false
 config/icon="res://icon.png"
 
+[autoload]
+
+AudioManager="*res://data/autoload/AudioManager.gd"
+
 [debug]
 
 settings/fps/force_fps=15
@@ -32,6 +36,14 @@ window/size/height=480
 window/size/resizable=false
 window/stretch/mode="viewport"
 window/stretch/aspect="keep"
+
+[input]
+
+jump={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":32,"unicode":0,"echo":false,"script":null)
+ ]
+}
 
 [rendering]
 
