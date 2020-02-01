@@ -5,9 +5,9 @@
 
 [sub_resource type="ShaderMaterial" id=1]
 shader = ExtResource( 2 )
-shader_param/ScreenSize = Vector3( 84, 48, 0 )
 shader_param/ColorLight = Color( 0.780392, 0.941176, 0.847059, 1 )
 shader_param/ColorDark = Color( 0.262745, 0.321569, 0.239216, 1 )
+shader_param/ScreenSize = Vector3( 84, 48, 0 )
 
 [node name="Main" type="Node"]
 
